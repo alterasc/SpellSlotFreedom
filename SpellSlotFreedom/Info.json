@@ -1,0 +1,12 @@
+﻿{
+  "Id": "SpellSlotFreedom",
+  "DisplayName": "Spell Slot Freedom",
+  "Author": "AlterAsc",
+  "Version": "1.0.0",
+  "ManagerVersion": "0.25.0",
+  "Requirements": [],
+  "AssemblyName": "SpellSlotFreedom.dll",
+  "EntryMethod": "SpellSlotFreedom.Main.Load",
+  "HomePage": "",
+  "Repository": ""
+}
