@@ -7,6 +7,6 @@
   "Requirements": [],
   "AssemblyName": "SpellSlotFreedom.dll",
   "EntryMethod": "SpellSlotFreedom.Main.Load",
-  "HomePage": "",
-  "Repository": ""
+  "HomePage": "https://www.nexusmods.com/pathfinderwrathoftherighteous/mods/603",
+  "Repository": "https://raw.githubusercontent.com/alterasc/SpellSlotFreedom/main/Repository.json"
 }
