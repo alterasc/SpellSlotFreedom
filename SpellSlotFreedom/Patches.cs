@@ -37,7 +37,7 @@ internal static class SpellbookKnownSpellPCView_EndDrag_Patch
                 return;
             }
 
-            var spellKey = $"{spellbook.Owner.Unit.UniqueId}:{spellbook.Blueprint.AssetGuid.m_Guid}:{lvl}";
+            var spellKey = $"{spellbook.Owner.Unit.UniqueId}:{spellbook.Blueprint.AssetGuid.m_Guid}:{spellData.Blueprint.AssetGuid.m_Guid}";
             if (shift > 0)
             {
                 if (spellData.IsTemporary)
@@ -80,7 +80,7 @@ public static class RuleCalculateAbilityParams_Constructor_Patch
         {
             return;
         }
-        var str = $"{initiator.UniqueId}:{spell.Spellbook.Blueprint.AssetGuid.m_Guid}:{spell.SpellLevel}";
+        var str = $"{initiator.UniqueId}:{spell.Spellbook.Blueprint.AssetGuid.m_Guid}:{spell.Blueprint.AssetGuid.m_Guid}";
         if (Storage.PerSave.SpellsOnHigherLevels.TryGetValue(str, out var shift))
         {
             __instance.AddBonusSpellLevel(shift);
